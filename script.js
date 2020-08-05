@@ -81,6 +81,6 @@ function checkTotalSubmit(submitCount) {
     } else if (submitCount == 3) {
         btnClickCount.innerText = 0;
         submitButton.disabled = true;
-        submitButton.style.backgroundColor = 'gray';
+        submitButton.style.backgroundColor = 'red';
     }
 }
